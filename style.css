@@ -1,0 +1,46 @@
+* {
+  font-family: system-ui, sans-serif;font-size: 24px;font-weight: 600;
+}
+body {
+    background-image: url("background.png");
+    background-repeat: repeat-y;
+    background-position: top;
+    background-attachment: scroll;
+}
+button {
+  width: 50%;
+  height: 50%;
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+  color: rgb(107, 167, 235);
+  text-align: center;
+}
+button:hover {
+  width: 80%;
+  height: 80%;
+  background-color: rgb(107, 167, 235);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+button {
+    transition-property: 
+     color,background-color,width,height;
+}
+button {
+    transition-duration: 0.5s;
+}
+#container{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.class1 {
+    background-color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+.class2 {
+    background-color: blue;
+    transform: scale(1.5) rotate(90deg);
+    transition: all 0.5s ease-in-out;
+}
